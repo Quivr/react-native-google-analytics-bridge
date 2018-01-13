@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |ss|
-    ss.dependency 'React'
     ss.frameworks = 'CoreData', 'SystemConfiguration'
     ss.libraries = 'z', 'sqlite3.0','GoogleAnalyticsServices'
 
